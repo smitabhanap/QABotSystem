@@ -4,16 +4,17 @@ def get_answer(question):
     # You can implement more sophisticated logic here based on your use case
     if question.lower() == 'what is your college name?':
         return "Ajeenkya D.Y.Patil College of Engineering"
-    elif question.lower() == 'What is average percentage of students who get campus placement?':
-        return "70%"
+   
     elif question.lower() == 'what is intake capacity?':
         return "120"
     elif question.lower() == 'what is highest placement package offered to student ?':
         return "12 Lacks per annum"
-    elif question.lower() == 'what is NAAC grade of college':
+    elif question.lower() == 'what is naac grade of college?':
         return "A"
     elif question.lower() == 'how many companies come for campus placement yearly?':
         return "50"
+    elif question.lower() == 'What is average percentage of students who get campus placement?':
+        return "70%"
     else:
         return "Sorry, I don't understand that question."
 

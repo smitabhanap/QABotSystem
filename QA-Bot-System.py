@@ -13,7 +13,7 @@ def get_answer(question):
         return "A"
     elif question.lower() == 'how many companies come for campus placement yearly?':
         return "50"
-    elif question.lower() == 'What is average percentage of students who get campus placement?':
+    elif question.lower() == 'what is average percentage of campus placement?':
         return "70%"
     else:
         return "Sorry, I don't understand that question."
